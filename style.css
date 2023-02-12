@@ -9,13 +9,15 @@ h1{
 .cont {
     border: 1px solid;
     width: fit-content;
-    padding: 5px;
+    padding: 4px;
+    /* padding-top: 19px; */
     margin: auto;
 }
 
 .square {
-    width: 1250px; 
-    height: 1000px;
+    position: relative;
+    /* width: 1250px; 
+    height: 1000px; */
     /* padding: 5px; */
     margin: 2.5px;
     border: 1px solid;
@@ -35,6 +37,6 @@ h1{
     display: inline;
     font-family: monospace;
     font-weight: 900;
-    position: relative;
-    bottom: 25px;
+    /* position: relative; */
+    /* bottom: 25px; */
 }
