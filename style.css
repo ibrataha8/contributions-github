@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.cont {
+    border: 1px solid;
+    width: fit-content;
+    padding: 5px;
+    margin: auto;
+}
+
+.square {
+    width: 1250px; 
+    height: 1000px;
+    /* padding: 5px; */
+    margin: 2.5px;
+    border: 1px solid;
+    background-color: rgb(62, 248, 62);
+}
+.row{
+    /* border: 1px solid red; */
+    margin: 5px 0px;
+    /* padding: 1px; */
+}
+.day-name{
+    display: inline;
+    font-family: monospace;
+    font-weight: 900;
+}
+.month-name{
+    display: inline;
+    font-family: monospace;
+    font-weight: 900;
+    position: relative;
+    bottom: 25px;
+}
